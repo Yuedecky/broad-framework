@@ -1,0 +1,12 @@
+broad:
+  sign:
+    use-header: true
+    header-key: broad-x-token
+    expire-in-seconds: 300
+    algorithm: MD5
+  cache:
+    type: redis
+    redis:
+      ip: xx.xx.xx.xx
+      port: xxxx
+      password: xxxxx
