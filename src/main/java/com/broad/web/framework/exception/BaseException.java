@@ -85,6 +85,10 @@ public class BaseException extends RuntimeException {
     }
 
 
+    public static BaseException wrap(String[] returnCode) {
+        return new BaseException(returnCode[1], returnCode[0]);
+    }
+
     public static BaseException wrap(BaseCode ex) {
         return new BaseException(ex.getStatus(), ex.getMsg());
     }
