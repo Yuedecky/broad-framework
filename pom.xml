@@ -36,7 +36,7 @@
         <log4j.version>1.2.17</log4j.version>
         <maven.source.plugin.version>3.0.0</maven.source.plugin.version>
         <apache.poi.version>4.0.0</apache.poi.version>
-        <xxl.job.version>2.0.2</xxl.job.version>
+        <xxl.job.version>2.3.0</xxl.job.version>
         <apache.poi.ooxml.version>4.0.0</apache.poi.ooxml.version>
         <dozer.version>6.5.0</dozer.version>
         <aliyun.dysmsapi.version>1.1.0</aliyun.dysmsapi.version>
